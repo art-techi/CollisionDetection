@@ -1,0 +1,9 @@
+set(ASSIGNMENT_SHADER_LIST
+    #"${ASSIGNMENT_SHADER_ROOT}/Node.vs.glsl"
+    #"${ASSIGNMENT_SHADER_ROOT}/Sphere.vs.glsl"
+    #"${ASSIGNMENT_SHADER_ROOT}/Sphere.fs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/ColourSphere.vs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/ColourSphere.fs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/Quad.vs.glsl"
+    "${ASSIGNMENT_SHADER_ROOT}/Quad.fs.glsl"
+    PARENT_SCOPE)

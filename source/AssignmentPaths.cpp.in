@@ -1,0 +1,14 @@
+#include "AssignmentPaths.hpp"
+
+namespace personalProject
+{
+    std::string getShaderDirectory()
+    {
+        return "@ASSIGNMENT_SHADER_ROOT@/";
+    }
+
+    std::string getImagesDirectory()
+    {
+        return "@ASSIGNMENT_IMAGES_ROOT@/";
+    }
+}
